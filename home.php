@@ -21,7 +21,7 @@
             <h2>Selamat Datang</h2>
             <!-- <p;">bla bla bla bla bla bla bla bla bla bla askdjnasjkdnasjkdnasjkdnjkasndasjkndjk asjkdjkasdjkasnkd asjdasjkdnjkasnd sajdkasnkjdnask sjkdjksandjknas djsandkasndkas djkasndjksnadj asjkdasnd jnndja jdsjnd djnajdjs adjsdnkasjnd asjkdnasjkdasjkdnjkasdj jk.<a href="https:\\www.google.com\" target="blank">learn more</a></p> -->
             <?php
-                $file = "data.txt";
+                file = "data.txt";
                 $handle = fopen ($file, "r");
                 echo fread($handle, filesize($file));
                 fclose($handle);
